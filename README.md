@@ -13,14 +13,15 @@
 
 
 
--Manually run the following and obtain IP addresses for hops. 
+- Manually run the following and obtain IP addresses for hops.
+  (P.S.: I'm bored at the moment to automate this part😌. If anyone is interested pls contribute 😅)
 ```bash
 Windows
     tracert www.website.com
 UNIX env
     traceroute www.website.com
 ```
--Now enter the ip addresses into input.txt as in the format entered.
+- Now enter the IP addresses into input.txt as in the format entered.
 ```bash
 SITE-www.uoregon.edu
  1.|-- 172.28.16.1
@@ -29,6 +30,10 @@ SITE-www.uoregon.edu
  4.|-- 10.1.1.74
 
 
+
+
 ```
 
-- The outputs are stored in .html files for each website
+- The outputs are stored in .html files for each website and will be displayed as follows:
+![Demo](media/demo.png)
+
