@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e0bead219e70cd81d626cbc5b521e7b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e0bead219e70cd81d626cbc5b521e7b8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e0bead219e70cd81d626cbc5b521e7b8 = L.map(
+                "map_e0bead219e70cd81d626cbc5b521e7b8",
+                {
+                    center: [6.9318, 79.8863],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_55c45fd05a4fa029ef1fdc8bd68170d9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_55c45fd05a4fa029ef1fdc8bd68170d9.addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+            var poly_line_6c9b8f55cba73333629020a096c18573 = L.polyline(
+                [[6.9318, 79.8863], [6.84292, 79.86642], [6.93264, 79.84591], [6.93264, 79.84591], [1.29041, 103.85211]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+        var popup_b4b9b06dc5230cf9ff7d063147407899 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06e8b85dfa5fa9d8a30f6618baaef889 = $(`<div id="html_06e8b85dfa5fa9d8a30f6618baaef889" style="width: 100.0%; height: 100.0%;">Route to www.uoregon.edu</div>`)[0];
+                popup_b4b9b06dc5230cf9ff7d063147407899.setContent(html_06e8b85dfa5fa9d8a30f6618baaef889);
+            
+        
+
+        poly_line_6c9b8f55cba73333629020a096c18573.bindPopup(popup_b4b9b06dc5230cf9ff7d063147407899)
+        ;
+
+        
+    
+    
+            var marker_495add12192e260ef6a1730a283f521e = L.marker(
+                [6.9318, 79.8863],
+                {
+}
+            ).addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+            var icon_00354e8c253b154d0164c89a5c0ec239 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_745018a19a8449455a3d0ae8045d5e18 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffc321b3cc222c15022d9786f267a143 = $(`<div id="html_ffc321b3cc222c15022d9786f267a143" style="width: 100.0%; height: 100.0%;"><b>Source</b><br>Source (Negombo, Sri Lanka)</div>`)[0];
+                popup_745018a19a8449455a3d0ae8045d5e18.setContent(html_ffc321b3cc222c15022d9786f267a143);
+            
+        
+
+        marker_495add12192e260ef6a1730a283f521e.bindPopup(popup_745018a19a8449455a3d0ae8045d5e18)
+        ;
+
+        
+    
+    
+            marker_495add12192e260ef6a1730a283f521e.bindTooltip(
+                `<div>
+                     Source (Negombo, Sri Lanka)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_495add12192e260ef6a1730a283f521e.setIcon(icon_00354e8c253b154d0164c89a5c0ec239);
+            
+    
+            var marker_057b432f1ae8f55a11185fd8f536975c = L.marker(
+                [6.84292, 79.86642],
+                {
+}
+            ).addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+            var icon_b5d7633e74193e17d93fe33331055f7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a298dcd5e0b04e6a7c14b083be5b3ea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_93caa76f9efde368b1dcc38f5c9c167d = $(`<div id="html_93caa76f9efde368b1dcc38f5c9c167d" style="width: 100.0%; height: 100.0%;"><b>Hop 1</b><br>Dehiwala-Mount Lavinia, LK<br>IP: 43.252.14.1<br>ISP: Hutchison Telecommunications Lanka Private Limited<br>Distance: 10.07 km</div>`)[0];
+                popup_2a298dcd5e0b04e6a7c14b083be5b3ea.setContent(html_93caa76f9efde368b1dcc38f5c9c167d);
+            
+        
+
+        marker_057b432f1ae8f55a11185fd8f536975c.bindPopup(popup_2a298dcd5e0b04e6a7c14b083be5b3ea)
+        ;
+
+        
+    
+    
+            marker_057b432f1ae8f55a11185fd8f536975c.bindTooltip(
+                `<div>
+                     Dehiwala-Mount Lavinia, LK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_057b432f1ae8f55a11185fd8f536975c.setIcon(icon_b5d7633e74193e17d93fe33331055f7e);
+            
+    
+            var marker_89e26d71d3f7bee23d57984ad0f504a4 = L.marker(
+                [6.93264, 79.84591],
+                {
+}
+            ).addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+            var icon_5ce901a17fc195aba640d0c968caff15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8676e8e0a91c64b977d15d4ceabb0546 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_605337e726983b4d0f4dea6ec0dc62f2 = $(`<div id="html_605337e726983b4d0f4dea6ec0dc62f2" style="width: 100.0%; height: 100.0%;"><b>Hop 2</b><br>Colombo, LK<br>IP: 103.87.125.33<br>ISP: Sri Lanka Telecom Ltd<br>Distance: 10.18 km</div>`)[0];
+                popup_8676e8e0a91c64b977d15d4ceabb0546.setContent(html_605337e726983b4d0f4dea6ec0dc62f2);
+            
+        
+
+        marker_89e26d71d3f7bee23d57984ad0f504a4.bindPopup(popup_8676e8e0a91c64b977d15d4ceabb0546)
+        ;
+
+        
+    
+    
+            marker_89e26d71d3f7bee23d57984ad0f504a4.bindTooltip(
+                `<div>
+                     Colombo, LK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89e26d71d3f7bee23d57984ad0f504a4.setIcon(icon_5ce901a17fc195aba640d0c968caff15);
+            
+    
+            var marker_c17c92cbcf7103016c94fc365f23307b = L.marker(
+                [6.93264, 79.84591],
+                {
+}
+            ).addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+            var icon_2a858fbbe6d6fcff5d36b725e0716de7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d42b02c04af56c460e9811a70cde0e4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_806fc3447c09cae6d4ca0f884331022d = $(`<div id="html_806fc3447c09cae6d4ca0f884331022d" style="width: 100.0%; height: 100.0%;"><b>Hop 3</b><br>Colombo, LK<br>IP: 103.87.124.93<br>ISP: Sri Lanka Telecom Ltd<br>Distance: 0.00 km</div>`)[0];
+                popup_3d42b02c04af56c460e9811a70cde0e4.setContent(html_806fc3447c09cae6d4ca0f884331022d);
+            
+        
+
+        marker_c17c92cbcf7103016c94fc365f23307b.bindPopup(popup_3d42b02c04af56c460e9811a70cde0e4)
+        ;
+
+        
+    
+    
+            marker_c17c92cbcf7103016c94fc365f23307b.bindTooltip(
+                `<div>
+                     Colombo, LK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c17c92cbcf7103016c94fc365f23307b.setIcon(icon_2a858fbbe6d6fcff5d36b725e0716de7);
+            
+    
+            var marker_bdb715c5ee7778edd879b877ccbe5493 = L.marker(
+                [1.29041, 103.85211],
+                {
+}
+            ).addTo(map_e0bead219e70cd81d626cbc5b521e7b8);
+        
+    
+            var icon_1d97d4f3d44d820d1a20a2f625a1c0cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ccf5215b130b917ac64afca5c89a757 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b9cf6486d37b83cec091171e96a9b26 = $(`<div id="html_9b9cf6486d37b83cec091171e96a9b26" style="width: 100.0%; height: 100.0%;"><b>Destination</b><br>Singapore, SG<br>IP: 103.87.124.74<br>ISP: Sri Lanka Telecom Ltd<br>Distance: 2736.41 km</div>`)[0];
+                popup_2ccf5215b130b917ac64afca5c89a757.setContent(html_9b9cf6486d37b83cec091171e96a9b26);
+            
+        
+
+        marker_bdb715c5ee7778edd879b877ccbe5493.bindPopup(popup_2ccf5215b130b917ac64afca5c89a757)
+        ;
+
+        
+    
+    
+            marker_bdb715c5ee7778edd879b877ccbe5493.bindTooltip(
+                `<div>
+                     Singapore, SG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bdb715c5ee7778edd879b877ccbe5493.setIcon(icon_1d97d4f3d44d820d1a20a2f625a1c0cd);
+            
+</script>
+</html>

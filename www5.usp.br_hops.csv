@@ -1,0 +1,19 @@
+Hop,IP Address,Country,City,ISP,Distance (km),Cumulative Distance (km)
+1,172.28.16.1,Unknown,Unknown,Unknown,N/A,N/A
+2,10.147.23.246,Unknown,Unknown,Unknown,N/A,N/A
+3,10.30.116.225,Unknown,Unknown,Unknown,N/A,N/A
+4,10.1.1.74,Unknown,Unknown,Unknown,N/A,N/A
+5,10.1.1.138,Unknown,Unknown,Unknown,N/A,N/A
+6,43.252.14.1,Sri Lanka,Dehiwala-Mount Lavinia,Hutchison Telecommunications Lanka Private Limited,10.07,10.07
+7,103.87.125.33,Sri Lanka,Colombo,Sri Lanka Telecom Ltd,10.18,20.25
+8,103.87.124.133,Sri Lanka,Colombo,Sri Lanka Telecom Ltd,0.00,20.25
+9,103.87.124.46,France,Marseille,Sri Lanka Telecom Ltd,8228.65,8248.90
+10,62.115.49.125,France,Paris,Arelion Sweden AB,661.22,8910.11
+11,94.142.107.214,France,Paris,TELEFONICA GLOBAL SOLUTIONS SL,0.00,8910.11
+12,213.140.38.243,France,Paris,Telefonica International Wholesale Network,0.00,8910.11
+13,213.140.36.233,United States,Ashburn,Telefonica International Wholesale Network,6200.44,15110.55
+14,94.142.99.160,Spain,Madrid,TELEFONICA GLOBAL SOLUTIONS SL,6129.05,21239.59
+15,84.16.7.179,Brazil,Sao Paulo,Telefonica International Wholesale Network TIWS Infrastructure,8374.38,29613.97
+16,84.16.7.179,Brazil,Sao Paulo,Telefonica International Wholesale Network TIWS Infrastructure,0.00,29613.97
+17,143.107.151.62,Brazil,Sao Paulo,UNIVERSIDADE DE SAO PAULO,0.00,29613.97
+18,143.107.151.62,Brazil,Sao Paulo,UNIVERSIDADE DE SAO PAULO,0.00,29613.97

@@ -1,0 +1,13 @@
+Hop,IP Address,Country,City,ISP,Distance (km),Cumulative Distance (km)
+1,172.28.16.1,Unknown,Unknown,Unknown,N/A,N/A
+2,10.147.23.246,Unknown,Unknown,Unknown,N/A,N/A
+3,10.30.116.225,Unknown,Unknown,Unknown,N/A,N/A
+4,10.1.1.74,Unknown,Unknown,Unknown,N/A,N/A
+5,10.1.1.138,Unknown,Unknown,Unknown,N/A,N/A
+6,43.252.14.1,Sri Lanka,Dehiwala-Mount Lavinia,Hutchison Telecommunications Lanka Private Limited,10.07,10.07
+7,103.87.125.33,Sri Lanka,Colombo,Sri Lanka Telecom Ltd,10.18,20.25
+8,103.87.124.133,Sri Lanka,Colombo,Sri Lanka Telecom Ltd,0.00,20.25
+9,103.87.124.198,Singapore,Singapore,Sri Lanka Telecom Ltd,2736.41,2756.66
+10,27.111.228.132,Singapore,Singapore,Equinix Singapore Pte Ltd,0.00,2756.66
+11,162.158.160.141,Singapore,Singapore,"Cloudflare, Inc.",0.00,2756.66
+12,2.58.104.11,Australia,Canberra Central,Squiz UK Limited,6205.51,8962.17

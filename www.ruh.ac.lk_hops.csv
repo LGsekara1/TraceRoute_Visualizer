@@ -1,0 +1,18 @@
+Hop,IP Address,Country,City,ISP,Distance (km),Cumulative Distance (km)
+1,172.28.16.1,Unknown,Unknown,Unknown,N/A,N/A
+2,10.147.23.246,Unknown,Unknown,Unknown,N/A,N/A
+3,10.30.116.225,Unknown,Unknown,Unknown,N/A,N/A
+4,10.1.1.74,Unknown,Unknown,Unknown,N/A,N/A
+5,10.1.1.138,Unknown,Unknown,Unknown,N/A,N/A
+6,43.252.14.1,Sri Lanka,Dehiwala-Mount Lavinia,Hutchison Telecommunications Lanka Private Limited,10.07,10.07
+7,103.87.125.33,Sri Lanka,Colombo,Sri Lanka Telecom Ltd,10.18,20.25
+8,103.87.124.93,Sri Lanka,Colombo,Sri Lanka Telecom Ltd,0.00,20.25
+9,103.87.124.198,Singapore,Singapore,Sri Lanka Telecom Ltd,2736.41,2756.66
+10,27.111.228.17,Singapore,Singapore,Equinix Singapore Pte Ltd,0.00,2756.66
+11,10.229.0.150,Unknown,Unknown,Unknown,N/A,N/A
+12,5.195.70.165,United Arab Emirates,Dubai,EMIRATES TELECOMMUNICATIONS GROUP COMPANY ETISALAT GROUP PJSC,5854.33,8610.99
+13,195.229.27.82,United Arab Emirates,Dubai,EMIRATES TELECOMMUNICATIONS GROUP COMPANY ETISALAT GROUP PJSC,0.00,8610.99
+14,125.214.191.39,Sri Lanka,Colombo,Dialog Axiata Plc,3310.78,11921.77
+15,123.231.32.98,Sri Lanka,Colombo,MTT Network Pvt Ltd,0.98,11922.75
+16,192.248.48.250,Sri Lanka,Galle,Lanka Education and Research Network,106.42,12029.17
+17,192.248.48.250,Sri Lanka,Galle,Lanka Education and Research Network,0.00,12029.17
