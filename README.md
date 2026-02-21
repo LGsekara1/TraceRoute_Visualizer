@@ -28,12 +28,18 @@ SITE-www.uoregon.edu
  2.|-- 10.147.23.246
  3.|-- 10.30.116.225
  4.|-- 10.1.1.74
+```
 
+- Adjust the file path to include "input.txt" and enter co-ordinates of your location
 
+- Now run the source python file within the directory.
 
-
+```bash
+  python -m src.py
 ```
 
 - The outputs are stored in .html files for each website and will be displayed as follows:
+  
 ![Demo](media/demo.png)
+
 
